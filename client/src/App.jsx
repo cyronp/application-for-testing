@@ -97,7 +97,7 @@ function App() {
               {/* Botão de deletar é VERDE (confunde com confirmar) */}
               <button
                 onClick={() => deleteTask(task.id)}
-                className="bg-green-500 text-white px-2 py-1 rounded text-xs"
+                className="!bg-green-500 text-white px-2 py-1 rounded text-xs"
               >
                 Deletar
               </button>

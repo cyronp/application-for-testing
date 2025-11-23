@@ -1,0 +1,23 @@
+{
+  "name": "application-for-testing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "testsprite:baseline": "node ./scripts/testsprite.js baseline",
+    "testsprite:test": "node ./scripts/testsprite.js test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "@types,node": "^24.10.1",
+    "cypress": "^15.7.0",
+    "pixelmatch": "^5.3.0",
+    "pngjs": "^7.0.0",
+    "fs-extra": "^11.1.1"
+  }
+}
